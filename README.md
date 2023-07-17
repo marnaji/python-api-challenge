@@ -55,14 +55,17 @@ r_value:
 
 ### Results VacationPy
 The city map has been created to display a points of every city in city_data_df DataFrame. 
+
 <img src="/images/CityMap.png" width="500"/>
 
 Data has been narrowed down to display ideal weather condition. The conditions are include: A max temperature lower than 27 degrees but higher than 21,Wind speed less than 4.5 m/s, and Zero cloudiness.
 
 I used Geoapify API to find the first hotels within 10,000 meters of the city coordinates. 
+
 <img src="/images/HotelNamesDF.png" width="500"/>
 
 Added the hotel name and the country as additional information in the hover message for each city in the map.
+
 <img src="/images/HotelMap.png" width="500"/>
 
 
