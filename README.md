@@ -12,8 +12,9 @@ Correlation among Max Temperature and Latitude in Northern Hemishphere is negati
 r_value:
     Northern : 0.6409014602340861
     Southern : 0.8318082534886896
+<img src="/images/NorthTemp.png" width="128"/>
+<img src="/images/SouthTemp.png" width="128"/>
 
-![alt text](/images/NorthTemp.png)![alt text](/images/SouthTemp.png)
 
 #### Latitude vs. Humidity
 orthern Hemisphere Latitude has a low positive correlation with humidity the increase latitude cause the humidity goes slowly higher. Sothern Hemisphere Humidity has a negative relation with latitude and is very very low.
