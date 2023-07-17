@@ -70,5 +70,5 @@ Added the hotel name and the country as additional information in the hover mess
 
 
 
-## Refrences
+## References
 Data has been retrieved from OpenWeatherMap API , and Geoapify API used to find hotels. 
