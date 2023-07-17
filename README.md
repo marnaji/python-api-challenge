@@ -6,7 +6,7 @@
 
     Linear regression has been computed for each relationship. The plots has been separated into Northern Hemisphere and Southern Hemisphere. 
 
-## Results WeatherPy
+### Results WeatherPy
 #### Latitude vs. Temperature
 Correlation among Max Temperature and Latitude in Northern Hemishphere is negative and the higher the Latitude the lower Temperature. Correlation among Max Temperature and Latitude in Sothern Hemisphere shows a positive relation and with increase of the Temperature the Latitude goes up.
 r_value:
@@ -14,18 +14,21 @@ r_value:
     Southern : 0.8318082534886896
 
 ![alt text](/images/NorthTemp.png)![alt text](/images/SouthTemp.png)
+
 #### Latitude vs. Humidity
 orthern Hemisphere Latitude has a low positive correlation with humidity the increase latitude cause the humidity goes slowly higher. Sothern Hemisphere Humidity has a negative relation with latitude and is very very low.
 r_value:
     Northern : 0.04494842986737573
     Southern : -0.011173762440052987
 ![alt text](/images/NorthHumid.png)![alt text](/images/SouthHumid.png)
+
 #### Latitude vs. Cloudiness
 On both Northen and Southern Hemisphere there are very low correlation with cloudiness. R-value is very close to 0 on both Hemisphere.
 r_value:
     Northern : -0.00878850018444309
     Southern : 0.033286983756034394
 ![alt text](/images/NorthCloud.png)![alt text](/images/SouthCloud.png)
+
 #### Latitude vs. Wind Speed
 There is very low negative correlation among Wind Speed and latitude on North and South Hemisphere. In Northern Hemisphere the speed in majority of the cities is between 0 and 10. In sothern Hemisphere wind speed slowly increases and it between 0 to 7.5.There is very little or no correlation between wind and Latitude.
 r_value: 
@@ -38,8 +41,21 @@ r_value:
     the ideal weather condition that I look for are limited to these three factores : A max temperature lower than 27 degrees but higher than 21, Wind speed less than 4.5 m/s, and . Zero cloudiness
 
 
-## Results VacationPy
+### Results VacationPy
+The city map has been created to display a points of every city in city_data_df DataFrame. 
+![alt text](/images/CityMap.png)
+
+Data has been narrowed down to display ideal weather condition. The conditions are include: A max temperature lower than 27 degrees but higher than 21,Wind speed less than 4.5 m/s, and Zero cloudiness.
+
+I used Geoapify API to find the first hotels within 10,000 meters of the city coordinates. 
+![alt text](/images/HotelNamesDF.png)
+
+Added the hotel name and the country as additional information in the hover message for each city in the map.
+![alt text](/images/HotelMap.png)
+
+
+
 
 
 ## Refrences
-Data has been retrieved from OpenWeatherMap API .
+Data has been retrieved from OpenWeatherMap API , and Geoapify API used to find hotels. 
